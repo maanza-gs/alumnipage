@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primaryblue: '#1a4577',
+                        lightblue: "#73A5E0"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <nav class="flex flex-col lg:flex-row items-center py-10 px-5 text-primaryblue bg-white">
+        <div class="flex flex-row space-x-2">
+            <img src="psg.png" alt="psg" class="w-16">
+            <div>
+                <h1 class="text-3xl font-semibold">PSG College of Technology</h1>
+                <h2 class="text-xl">Peelamedu, Coimbatore</h2>
+            </div>
+        </div>
+        <div class="hidden lg:block lg:flex-grow"></div>
+        <p class="text-center lg:text-left mt-10 lg:mt-0 lg:w-64">For any queries, mail to
+            <a class="underline font-semibold" href="mailto:distinguisedalumni@psgtech.ac.in">distinguisedalumni@psgtech.ac.in</a>
+        </p>
+    </nav>
+
+    <div class="h-full relative">
+        <div class="absolute bg-black w-full h-full top-0 bottom-0 opacity-60 z-[-1]"></div>
+        <video class="absolute w-full h-full object-cover z-[-2]" src="homebgvd.mp4" autoplay muted playsinline
+            loop></video>
+
+        <div class="px-10 py-10 lg:flex lg:flex-row lg:space-x-8">
+            <div>
+                <div class="py-10">
+                    <h1
+                        class="text-white font-semibold text-3xl lg:text-4xl text-center lg:text-left relative before:absolute before:w-32 before:h-1 before:bg-lightblue before:top-[120%] before:left-[50%] lg:before:left-0 before:ml-[-4rem] lg:before:ml-0">
+                        PSG <span class="text-lightblue">Distinguished Alumni</span> Nomination
+                    </h1>
+                    <p class="text-white mt-10 lg:mt-16 text-center lg:text-left font-medium text-md lg:text-xl">
+                        Nominations will be taken from Alumni, recommending their batch mates or senior/ junior batch
+                        alumni who have excelled in their field. Below is the criteria to be adopted to identify
+                        distinguished alumni.
+                    </p>
+                </div>
+                <img class="w-full object-cover rounded-md lg:hidden" src="collegepic.jpeg" alt="">
+                <div class="py-10">
+                    <h1
+                    class="text-white font-semibold text-3xl lg:text-4xl text-center lg:text-left relative before:absolute before:w-32 before:h-1 before:bg-lightblue before:top-[120%] before:left-[50%] lg:before:left-0 before:ml-[-4rem] lg:before:ml-0">
+                        Criteria for <span class="text-lightblue">Distinguished Alumni</span> Nominations
+                    </h1>
+                    <div class="text-white mt-16 font-medium text-md lg:text-xl">
+                        <div
+                        class="mb-5 relative before:absolute before:bg-lightblue before:w-2 before:h-2 before:top-2 lg:before:top-3 before:left-0">
+                            <p class="ml-4">
+                                Innovations in the application of technology, design &amp; development, achievements,
+                                awards
+                                &amp; recognition (external &amp; internal), technical leadership activities &amp;
+                                positions,
+                                fellowships in
+                                professional organizations, patents &amp; publications, industry standards activities,
+                                collaborations with academia, community service.
+                            </p>
+                        </div>
+                        <div
+                        class="mb-5 relative before:absolute before:bg-lightblue before:w-2 before:h-2 before:top-2 lg:before:top-3 before:left-0">
+                            <p class="ml-4">
+                                Exceptional management skills, a leadership position with company, awards &amp;
+                                recognition,
+                                Board memberships, Fellowships, testimonials, global stature, collaborations with
+                                academia, community service, team leadership in setting up new enterprises, mentoring
+                                track record.
+                            </p>
+                        </div>
+                        <div
+                            class="mb-5 relative before:absolute before:bg-lightblue before:w-2 before:h-2 before:top-2 lg:before:top-3 before:left-0">
+                            <p class="ml-4">
+                                Significant entrepreneurial skills &amp; accomplishments, a creation of support
+                                structure
+                                for
+                                entrepreneurs, the success of start-ups in establishing market presence, the scale.
+                            </p>
+                        </div>
+                        <div
+                            class="mb-5 relative before:absolute before:bg-lightblue before:w-2 before:h-2 before:top-2 lg:before:top-3 before:left-0">
+                            <p class="ml-4">
+                                Significant accomplishments in various areas-service to society, service to the institute,
+                                service to alumni, excellence in public administration, notable achievements in media & fine
+                                arts, leadership and innovation, the scale of impact.
+                            </p>
+                        </div>
+                        <div
+                        class="mb-5 relative before:absolute before:bg-lightblue before:w-2 before:h-2 before:top-2 lg:before:top-3 before:left-0">
+                            <p class="ml-4">
+                                Academic achievements and honours, imellectual contributions to the field of expertise,
+                                pioneering work, journal papers & citation indices, conference papers, books and book
+                                chapters, number of Ph.D scholars guided, visiting professorship, lectureships, fellowships
+                                in professional associations, student mentoring & welfare activities, peer testimonials,
+                                awards & recognition.                            
+                            </p>
+                        </div>
+                        <div
+                        class="mb-5 relative before:absolute before:bg-lightblue before:w-2 before:h-2 before:top-2 lg:before:top-3 before:left-0">
+                            <p class="ml-4">
+                                Preferred age category is 45 to 55 years of age.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full text-center text-white mt-16">
+                        <a class="bg-primaryblue px-5 py-2 text-2xl xl:text-3xl rounded-md font-light"
+                            href="https://forms.gle/j9ZMT3JUcgh9FYSa8">Nominate</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden lg:block lg:flex-grow"></div>
+            <img class="w-full object-cover rounded-md hidden lg:block lg:w-[40%] lg:h-[50%]" src="collegepic.jpeg" alt="">
+        </div>
+    </div>
+</body>
+</html>
